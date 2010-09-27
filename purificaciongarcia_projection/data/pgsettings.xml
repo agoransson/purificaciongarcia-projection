@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<settings>
+    <!-- SHADER: play with these variables to get the right feel, use small changes! -->
+    <!-- lowering brightness makes the dots larger-->
+    <brightness>0.5</brightness>
+    <!-- lowering exposure makes the dots less "shiny" -->
+    <exposure>0.7</exposure>
+    
+    <!-- Osc port, make sure this corresponds to server! -->
+    <oscport>6699</oscport>
+    
+    <!-- Led values -->
+    <diameter>15</diameter>
+    <jitteramount>15</jitteramount>
+    <!-- This variable defines how much the bag-position influences the dots -->
+    <followvalue>3</followvalue>
+    
+    <!-- boid variables, you should probably not change these -->
+    <maxspeed>1.7</maxspeed>
+    <maxforce>0.015</maxforce>
+    <desiredseparation>25</desiredseparation>
+    <neighbordist>30</neighbordist>
+    
+    <!-- LETTER VALUES -->
+    <!-- dx & dy define the way letters are rendered -->
+    <!-- YOU HAVE TO EDIT THESE VALUES UNTIL THE MESSAGE IS RENDERED NICELY -->
+    <!-- Note: Always let dx and dy have the same value. -->
+    <dx>35</dx>
+    <dy>35</dy>
+    <!-- MESSAGE VALUES -->
+    <!-- Horizontal displacement constants -->
+    <!-- these values can nudge each line of the message to right or left -->
+    <!-- negative values = nudge to left : positive values = nudge to right -->
+    <nudgeFirstLine>0</nudgeFirstLine>
+    <nudgeSecondLine>0</nudgeSecondLine>
+    <nudgeThirdLine>0</nudgeThirdLine>
+    <!-- this nudges the ENTIRE message on y-axis -->
+    <nudgeY>0</nudgeY>
+    <!-- this value adjusts the spacing between the letters -->
+    <letterspacing>0</letterspacing>
+    
+    
+    <!-- This value marks the distance where the sound has a 50% falloff -->
+    <!-- Smaller values are probably better than larger -->
+    <soundfalloffdist>25</soundfalloffdist>
+    
+    <!-- DEBUGGING? -->
+    <!-- This enables mousecontrol and some other stuff. RED DOT -->
+    <!-- 0 = NO, anything else = YES -->
+    <mousecontrol>0</mousecontrol>
+    <!-- Using iphone? YELLOW DOT -->
+    <!-- 0 = NO, anything else = YES -->
+    <iphone>1</iphone>
+</settings>
